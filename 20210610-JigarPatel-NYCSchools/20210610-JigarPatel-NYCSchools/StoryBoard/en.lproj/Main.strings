@@ -1,0 +1,21 @@
+
+/* Class = "UIButton"; normalTitle = "Phone #: (347) 972-2693"; ObjectID = "G3F-Db-n9s"; */
+"G3F-Db-n9s.normalTitle" = "Phone #: (347) 972-2693";
+
+/* Class = "UINavigationItem"; title = "HighSchools"; ObjectID = "OZO-WA-Gut"; */
+"OZO-WA-Gut.title" = "HighSchools";
+
+/* Class = "UIButton"; normalTitle = "Navigate to Address"; ObjectID = "bml-v4-LaD"; */
+"bml-v4-LaD.normalTitle" = "Navigate to Address";
+
+/* Class = "UILabel"; text = "School Name"; ObjectID = "j86-57-bnZ"; */
+"j86-57-bnZ.text" = "School Name";
+
+/* Class = "UIBarButtonItem"; title = "Schools"; ObjectID = "lpU-MH-hqT"; */
+"lpU-MH-hqT.title" = "Schools";
+
+/* Class = "UILabel"; text = "Overview"; ObjectID = "x34-XE-y0q"; */
+"x34-XE-y0q.text" = "Overview";
+
+/* Class = "UILabel"; text = "Address: 8-21 Bay 25th St, Far Rockaway, NY 11691"; ObjectID = "yAO-Dr-KLQ"; */
+"yAO-Dr-KLQ.text" = "Address: 8-21 Bay 25th St, Far Rockaway, NY 11691";

@@ -1,0 +1,6 @@
+module Pods_20210610_JigarPatel_NYCSchools_20210610_JigarPatel_NYCSchoolsUITests {
+  umbrella header "Pods-20210610-JigarPatel-NYCSchools-20210610-JigarPatel-NYCSchoolsUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

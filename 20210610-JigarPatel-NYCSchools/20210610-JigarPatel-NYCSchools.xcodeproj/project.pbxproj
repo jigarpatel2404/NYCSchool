@@ -1,0 +1,814 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DCF0270FBF6B129B744A938 /* libPods-20210610-JigarPatel-NYCSchools-20210610-JigarPatel-NYCSchoolsUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF8494C8B0C3831B2AD65821 /* libPods-20210610-JigarPatel-NYCSchools-20210610-JigarPatel-NYCSchoolsUITests.a */; };
+		822D45B270DDC8D696EBF4A9 /* libPods-20210610-JigarPatel-NYCSchoolsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD89BE9786373DA7E46FBF3F /* libPods-20210610-JigarPatel-NYCSchoolsTests.a */; };
+		C30B81072672223B0022F1B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30B81062672223B0022F1B1 /* AppDelegate.swift */; };
+		C30B81092672223B0022F1B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30B81082672223B0022F1B1 /* SceneDelegate.swift */; };
+		C30B810B2672223B0022F1B1 /* HSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30B810A2672223B0022F1B1 /* HSViewController.swift */; };
+		C30B810E2672223B0022F1B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C30B810C2672223B0022F1B1 /* Main.storyboard */; };
+		C30B8110267222420022F1B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C30B810F267222420022F1B1 /* Assets.xcassets */; };
+		C30B8113267222420022F1B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C30B8111267222420022F1B1 /* LaunchScreen.storyboard */; };
+		C30B811E267222430022F1B1 /* _0210610_JigarPatel_NYCSchoolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30B811D267222430022F1B1 /* _0210610_JigarPatel_NYCSchoolsTests.swift */; };
+		C30B8129267222430022F1B1 /* _0210610_JigarPatel_NYCSchoolsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30B8128267222430022F1B1 /* _0210610_JigarPatel_NYCSchoolsUITests.swift */; };
+		C30B813A267222870022F1B1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30B8139267222870022F1B1 /* Constants.swift */; };
+		C30B8140267223E90022F1B1 /* HighSchools.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30B813F267223E90022F1B1 /* HighSchools.swift */; };
+		C30B8156267226470022F1B1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30B8155267226470022F1B1 /* Extensions.swift */; };
+		C30B816426724C280022F1B1 /* HSTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30B816326724C280022F1B1 /* HSTableViewCell.swift */; };
+		C30B816C26724D1D0022F1B1 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30B816B26724D1D0022F1B1 /* Utilities.swift */; };
+		C30B81712672513A0022F1B1 /* HSDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30B81702672513A0022F1B1 /* HSDetailTableViewController.swift */; };
+		C33E22BA26729D360013EF43 /* CellAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33E22B926729D360013EF43 /* CellAnimator.swift */; };
+		C33E22BF26729DC10013EF43 /* LoadingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33E22BE26729DC10013EF43 /* LoadingOverlay.swift */; };
+		C33E22D12672ABB10013EF43 /* DetailCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33E22D02672ABB10013EF43 /* DetailCells.swift */; };
+		C33E22D92672AC430013EF43 /* HSSatScoresTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33E22D52672AC430013EF43 /* HSSatScoresTableViewCell.swift */; };
+		C33E22DA2672AC430013EF43 /* HSOverviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33E22D62672AC430013EF43 /* HSOverviewTableViewCell.swift */; };
+		C33E22DB2672AC430013EF43 /* HSContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33E22D72672AC430013EF43 /* HSContactTableViewCell.swift */; };
+		C33E22DC2672AC430013EF43 /* HSAddressTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33E22D82672AC430013EF43 /* HSAddressTableViewCell.swift */; };
+		DF3F081B5CC96ACA5B867344 /* libPods-20210610-JigarPatel-NYCSchools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB160313C88A973C164CD62D /* libPods-20210610-JigarPatel-NYCSchools.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C30B811A267222430022F1B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C30B80FB2672223B0022F1B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C30B81022672223B0022F1B1;
+			remoteInfo = "20210610-JigarPatel-NYCSchools";
+		};
+		C30B8125267222430022F1B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C30B80FB2672223B0022F1B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C30B81022672223B0022F1B1;
+			remoteInfo = "20210610-JigarPatel-NYCSchools";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0135F86DCD3C4C35F2B08051 /* Pods-20210610-JigarPatel-NYCSchools-20210610-JigarPatel-NYCSchoolsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-20210610-JigarPatel-NYCSchools-20210610-JigarPatel-NYCSchoolsUITests.release.xcconfig"; path = "Target Support Files/Pods-20210610-JigarPatel-NYCSchools-20210610-JigarPatel-NYCSchoolsUITests/Pods-20210610-JigarPatel-NYCSchools-20210610-JigarPatel-NYCSchoolsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3E028029740605789FE8A750 /* Pods-20210610-JigarPatel-NYCSchools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-20210610-JigarPatel-NYCSchools.debug.xcconfig"; path = "Target Support Files/Pods-20210610-JigarPatel-NYCSchools/Pods-20210610-JigarPatel-NYCSchools.debug.xcconfig"; sourceTree = "<group>"; };
+		5DE1D7DADC83F76328D4FC72 /* Pods-20210610-JigarPatel-NYCSchoolsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-20210610-JigarPatel-NYCSchoolsTests.debug.xcconfig"; path = "Target Support Files/Pods-20210610-JigarPatel-NYCSchoolsTests/Pods-20210610-JigarPatel-NYCSchoolsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AB160313C88A973C164CD62D /* libPods-20210610-JigarPatel-NYCSchools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-20210610-JigarPatel-NYCSchools.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD89BE9786373DA7E46FBF3F /* libPods-20210610-JigarPatel-NYCSchoolsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-20210610-JigarPatel-NYCSchoolsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF8494C8B0C3831B2AD65821 /* libPods-20210610-JigarPatel-NYCSchools-20210610-JigarPatel-NYCSchoolsUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-20210610-JigarPatel-NYCSchools-20210610-JigarPatel-NYCSchoolsUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B580BFB57681C2863000F852 /* Pods-20210610-JigarPatel-NYCSchools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-20210610-JigarPatel-NYCSchools.release.xcconfig"; path = "Target Support Files/Pods-20210610-JigarPatel-NYCSchools/Pods-20210610-JigarPatel-NYCSchools.release.xcconfig"; sourceTree = "<group>"; };
+		B6C3DA7B778567EE35B4797E /* Pods-20210610-JigarPatel-NYCSchools-20210610-JigarPatel-NYCSchoolsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-20210610-JigarPatel-NYCSchools-20210610-JigarPatel-NYCSchoolsUITests.debug.xcconfig"; path = "Target Support Files/Pods-20210610-JigarPatel-NYCSchools-20210610-JigarPatel-NYCSchoolsUITests/Pods-20210610-JigarPatel-NYCSchools-20210610-JigarPatel-NYCSchoolsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BD4271F10E33B2522C1C532C /* Pods-20210610-JigarPatel-NYCSchoolsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-20210610-JigarPatel-NYCSchoolsTests.release.xcconfig"; path = "Target Support Files/Pods-20210610-JigarPatel-NYCSchoolsTests/Pods-20210610-JigarPatel-NYCSchoolsTests.release.xcconfig"; sourceTree = "<group>"; };
+		C30B81032672223B0022F1B1 /* 20210610-JigarPatel-NYCSchools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20210610-JigarPatel-NYCSchools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C30B81062672223B0022F1B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C30B81082672223B0022F1B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C30B810A2672223B0022F1B1 /* HSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSViewController.swift; sourceTree = "<group>"; };
+		C30B810D2672223B0022F1B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C30B810F267222420022F1B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C30B8112267222420022F1B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C30B8114267222420022F1B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C30B8119267222430022F1B1 /* 20210610-JigarPatel-NYCSchoolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20210610-JigarPatel-NYCSchoolsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C30B811D267222430022F1B1 /* _0210610_JigarPatel_NYCSchoolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0210610_JigarPatel_NYCSchoolsTests.swift; sourceTree = "<group>"; };
+		C30B811F267222430022F1B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C30B8124267222430022F1B1 /* 20210610-JigarPatel-NYCSchoolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20210610-JigarPatel-NYCSchoolsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C30B8128267222430022F1B1 /* _0210610_JigarPatel_NYCSchoolsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0210610_JigarPatel_NYCSchoolsUITests.swift; sourceTree = "<group>"; };
+		C30B812A267222430022F1B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C30B8139267222870022F1B1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C30B813F267223E90022F1B1 /* HighSchools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighSchools.swift; sourceTree = "<group>"; };
+		C30B8155267226470022F1B1 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C30B816326724C280022F1B1 /* HSTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSTableViewCell.swift; sourceTree = "<group>"; };
+		C30B816B26724D1D0022F1B1 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		C30B81702672513A0022F1B1 /* HSDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSDetailTableViewController.swift; sourceTree = "<group>"; };
+		C33E22B5267289D10013EF43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		C33E22B926729D360013EF43 /* CellAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellAnimator.swift; sourceTree = "<group>"; };
+		C33E22BE26729DC10013EF43 /* LoadingOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingOverlay.swift; sourceTree = "<group>"; };
+		C33E22C426729E2A0013EF43 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		C33E22D02672ABB10013EF43 /* DetailCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCells.swift; sourceTree = "<group>"; };
+		C33E22D52672AC430013EF43 /* HSSatScoresTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSSatScoresTableViewCell.swift; sourceTree = "<group>"; };
+		C33E22D62672AC430013EF43 /* HSOverviewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSOverviewTableViewCell.swift; sourceTree = "<group>"; };
+		C33E22D72672AC430013EF43 /* HSContactTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSContactTableViewCell.swift; sourceTree = "<group>"; };
+		C33E22D82672AC430013EF43 /* HSAddressTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSAddressTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C30B81002672223B0022F1B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF3F081B5CC96ACA5B867344 /* libPods-20210610-JigarPatel-NYCSchools.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C30B8116267222430022F1B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				822D45B270DDC8D696EBF4A9 /* libPods-20210610-JigarPatel-NYCSchoolsTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C30B8121267222430022F1B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DCF0270FBF6B129B744A938 /* libPods-20210610-JigarPatel-NYCSchools-20210610-JigarPatel-NYCSchoolsUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06D3C8F7DC457B1961379626 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB160313C88A973C164CD62D /* libPods-20210610-JigarPatel-NYCSchools.a */,
+				AF8494C8B0C3831B2AD65821 /* libPods-20210610-JigarPatel-NYCSchools-20210610-JigarPatel-NYCSchoolsUITests.a */,
+				AD89BE9786373DA7E46FBF3F /* libPods-20210610-JigarPatel-NYCSchoolsTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C30B80FA2672223B0022F1B1 = {
+			isa = PBXGroup;
+			children = (
+				C30B81052672223B0022F1B1 /* 20210610-JigarPatel-NYCSchools */,
+				C30B811C267222430022F1B1 /* 20210610-JigarPatel-NYCSchoolsTests */,
+				C30B8127267222430022F1B1 /* 20210610-JigarPatel-NYCSchoolsUITests */,
+				C30B81042672223B0022F1B1 /* Products */,
+				D022D3111FDA929152B9EF0C /* Pods */,
+				06D3C8F7DC457B1961379626 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C30B81042672223B0022F1B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C30B81032672223B0022F1B1 /* 20210610-JigarPatel-NYCSchools.app */,
+				C30B8119267222430022F1B1 /* 20210610-JigarPatel-NYCSchoolsTests.xctest */,
+				C30B8124267222430022F1B1 /* 20210610-JigarPatel-NYCSchoolsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C30B81052672223B0022F1B1 /* 20210610-JigarPatel-NYCSchools */ = {
+			isa = PBXGroup;
+			children = (
+				C33E22C326729E120013EF43 /* Font */,
+				C30B8176267253320022F1B1 /* StoryBoard */,
+				C30B81752672531D0022F1B1 /* Others */,
+				C30B816226724BBF0022F1B1 /* TableCell */,
+				C30B814E267226150022F1B1 /* Extensions */,
+				C30B813E267223C20022F1B1 /* Model */,
+				C30B81062672223B0022F1B1 /* AppDelegate.swift */,
+				C30B81082672223B0022F1B1 /* SceneDelegate.swift */,
+				C30B810A2672223B0022F1B1 /* HSViewController.swift */,
+				C30B81702672513A0022F1B1 /* HSDetailTableViewController.swift */,
+				C30B810F267222420022F1B1 /* Assets.xcassets */,
+				C30B8114267222420022F1B1 /* Info.plist */,
+			);
+			path = "20210610-JigarPatel-NYCSchools";
+			sourceTree = "<group>";
+		};
+		C30B811C267222430022F1B1 /* 20210610-JigarPatel-NYCSchoolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				C30B811D267222430022F1B1 /* _0210610_JigarPatel_NYCSchoolsTests.swift */,
+				C30B811F267222430022F1B1 /* Info.plist */,
+			);
+			path = "20210610-JigarPatel-NYCSchoolsTests";
+			sourceTree = "<group>";
+		};
+		C30B8127267222430022F1B1 /* 20210610-JigarPatel-NYCSchoolsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C30B8128267222430022F1B1 /* _0210610_JigarPatel_NYCSchoolsUITests.swift */,
+				C30B812A267222430022F1B1 /* Info.plist */,
+			);
+			path = "20210610-JigarPatel-NYCSchoolsUITests";
+			sourceTree = "<group>";
+		};
+		C30B813E267223C20022F1B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C30B813F267223E90022F1B1 /* HighSchools.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C30B814E267226150022F1B1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C30B8155267226470022F1B1 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C30B816226724BBF0022F1B1 /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				C33E22D82672AC430013EF43 /* HSAddressTableViewCell.swift */,
+				C33E22D72672AC430013EF43 /* HSContactTableViewCell.swift */,
+				C33E22D62672AC430013EF43 /* HSOverviewTableViewCell.swift */,
+				C33E22D52672AC430013EF43 /* HSSatScoresTableViewCell.swift */,
+				C30B816326724C280022F1B1 /* HSTableViewCell.swift */,
+				C33E22D02672ABB10013EF43 /* DetailCells.swift */,
+			);
+			path = TableCell;
+			sourceTree = "<group>";
+		};
+		C30B81752672531D0022F1B1 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				C33E22BE26729DC10013EF43 /* LoadingOverlay.swift */,
+				C33E22B926729D360013EF43 /* CellAnimator.swift */,
+				C30B8139267222870022F1B1 /* Constants.swift */,
+				C30B816B26724D1D0022F1B1 /* Utilities.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		C30B8176267253320022F1B1 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				C30B810C2672223B0022F1B1 /* Main.storyboard */,
+				C30B8111267222420022F1B1 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		C33E22C326729E120013EF43 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				C33E22C426729E2A0013EF43 /* Poppins-Regular.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		D022D3111FDA929152B9EF0C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E028029740605789FE8A750 /* Pods-20210610-JigarPatel-NYCSchools.debug.xcconfig */,
+				B580BFB57681C2863000F852 /* Pods-20210610-JigarPatel-NYCSchools.release.xcconfig */,
+				B6C3DA7B778567EE35B4797E /* Pods-20210610-JigarPatel-NYCSchools-20210610-JigarPatel-NYCSchoolsUITests.debug.xcconfig */,
+				0135F86DCD3C4C35F2B08051 /* Pods-20210610-JigarPatel-NYCSchools-20210610-JigarPatel-NYCSchoolsUITests.release.xcconfig */,
+				5DE1D7DADC83F76328D4FC72 /* Pods-20210610-JigarPatel-NYCSchoolsTests.debug.xcconfig */,
+				BD4271F10E33B2522C1C532C /* Pods-20210610-JigarPatel-NYCSchoolsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C30B81022672223B0022F1B1 /* 20210610-JigarPatel-NYCSchools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C30B812D267222430022F1B1 /* Build configuration list for PBXNativeTarget "20210610-JigarPatel-NYCSchools" */;
+			buildPhases = (
+				ACBBC193BDA9B8F9C9FB3202 /* [CP] Check Pods Manifest.lock */,
+				C30B80FF2672223B0022F1B1 /* Sources */,
+				C30B81002672223B0022F1B1 /* Frameworks */,
+				C30B81012672223B0022F1B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "20210610-JigarPatel-NYCSchools";
+			productName = "20210610-JigarPatel-NYCSchools";
+			productReference = C30B81032672223B0022F1B1 /* 20210610-JigarPatel-NYCSchools.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C30B8118267222430022F1B1 /* 20210610-JigarPatel-NYCSchoolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C30B8130267222430022F1B1 /* Build configuration list for PBXNativeTarget "20210610-JigarPatel-NYCSchoolsTests" */;
+			buildPhases = (
+				B420A43F84D8EB4D9C12A492 /* [CP] Check Pods Manifest.lock */,
+				C30B8115267222430022F1B1 /* Sources */,
+				C30B8116267222430022F1B1 /* Frameworks */,
+				C30B8117267222430022F1B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C30B811B267222430022F1B1 /* PBXTargetDependency */,
+			);
+			name = "20210610-JigarPatel-NYCSchoolsTests";
+			productName = "20210610-JigarPatel-NYCSchoolsTests";
+			productReference = C30B8119267222430022F1B1 /* 20210610-JigarPatel-NYCSchoolsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C30B8123267222430022F1B1 /* 20210610-JigarPatel-NYCSchoolsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C30B8133267222430022F1B1 /* Build configuration list for PBXNativeTarget "20210610-JigarPatel-NYCSchoolsUITests" */;
+			buildPhases = (
+				473AD2A4D2988884A930589D /* [CP] Check Pods Manifest.lock */,
+				C30B8120267222430022F1B1 /* Sources */,
+				C30B8121267222430022F1B1 /* Frameworks */,
+				C30B8122267222430022F1B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C30B8126267222430022F1B1 /* PBXTargetDependency */,
+			);
+			name = "20210610-JigarPatel-NYCSchoolsUITests";
+			productName = "20210610-JigarPatel-NYCSchoolsUITests";
+			productReference = C30B8124267222430022F1B1 /* 20210610-JigarPatel-NYCSchoolsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C30B80FB2672223B0022F1B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					C30B81022672223B0022F1B1 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					C30B8118267222430022F1B1 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = C30B81022672223B0022F1B1;
+					};
+					C30B8123267222430022F1B1 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = C30B81022672223B0022F1B1;
+					};
+				};
+			};
+			buildConfigurationList = C30B80FE2672223B0022F1B1 /* Build configuration list for PBXProject "20210610-JigarPatel-NYCSchools" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C30B80FA2672223B0022F1B1;
+			productRefGroup = C30B81042672223B0022F1B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C30B81022672223B0022F1B1 /* 20210610-JigarPatel-NYCSchools */,
+				C30B8118267222430022F1B1 /* 20210610-JigarPatel-NYCSchoolsTests */,
+				C30B8123267222430022F1B1 /* 20210610-JigarPatel-NYCSchoolsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C30B81012672223B0022F1B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C30B8113267222420022F1B1 /* LaunchScreen.storyboard in Resources */,
+				C30B8110267222420022F1B1 /* Assets.xcassets in Resources */,
+				C30B810E2672223B0022F1B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C30B8117267222430022F1B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C30B8122267222430022F1B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		473AD2A4D2988884A930589D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-20210610-JigarPatel-NYCSchools-20210610-JigarPatel-NYCSchoolsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACBBC193BDA9B8F9C9FB3202 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-20210610-JigarPatel-NYCSchools-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B420A43F84D8EB4D9C12A492 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-20210610-JigarPatel-NYCSchoolsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C30B80FF2672223B0022F1B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C30B8140267223E90022F1B1 /* HighSchools.swift in Sources */,
+				C33E22DA2672AC430013EF43 /* HSOverviewTableViewCell.swift in Sources */,
+				C30B8156267226470022F1B1 /* Extensions.swift in Sources */,
+				C33E22BA26729D360013EF43 /* CellAnimator.swift in Sources */,
+				C33E22BF26729DC10013EF43 /* LoadingOverlay.swift in Sources */,
+				C30B810B2672223B0022F1B1 /* HSViewController.swift in Sources */,
+				C30B81072672223B0022F1B1 /* AppDelegate.swift in Sources */,
+				C30B81092672223B0022F1B1 /* SceneDelegate.swift in Sources */,
+				C33E22D92672AC430013EF43 /* HSSatScoresTableViewCell.swift in Sources */,
+				C33E22DB2672AC430013EF43 /* HSContactTableViewCell.swift in Sources */,
+				C30B81712672513A0022F1B1 /* HSDetailTableViewController.swift in Sources */,
+				C33E22DC2672AC430013EF43 /* HSAddressTableViewCell.swift in Sources */,
+				C30B816C26724D1D0022F1B1 /* Utilities.swift in Sources */,
+				C30B816426724C280022F1B1 /* HSTableViewCell.swift in Sources */,
+				C33E22D12672ABB10013EF43 /* DetailCells.swift in Sources */,
+				C30B813A267222870022F1B1 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C30B8115267222430022F1B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C30B811E267222430022F1B1 /* _0210610_JigarPatel_NYCSchoolsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C30B8120267222430022F1B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C30B8129267222430022F1B1 /* _0210610_JigarPatel_NYCSchoolsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C30B811B267222430022F1B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C30B81022672223B0022F1B1 /* 20210610-JigarPatel-NYCSchools */;
+			targetProxy = C30B811A267222430022F1B1 /* PBXContainerItemProxy */;
+		};
+		C30B8126267222430022F1B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C30B81022672223B0022F1B1 /* 20210610-JigarPatel-NYCSchools */;
+			targetProxy = C30B8125267222430022F1B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C30B810C2672223B0022F1B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C30B810D2672223B0022F1B1 /* Base */,
+				C33E22B5267289D10013EF43 /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C30B8111267222420022F1B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C30B8112267222420022F1B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C30B812B267222430022F1B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C30B812C267222430022F1B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C30B812E267222430022F1B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E028029740605789FE8A750 /* Pods-20210610-JigarPatel-NYCSchools.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "20210610-JigarPatel-NYCSchools/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jigar.-0210610-JigarPatel-NYCSchools";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C30B812F267222430022F1B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B580BFB57681C2863000F852 /* Pods-20210610-JigarPatel-NYCSchools.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "20210610-JigarPatel-NYCSchools/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jigar.-0210610-JigarPatel-NYCSchools";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C30B8131267222430022F1B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DE1D7DADC83F76328D4FC72 /* Pods-20210610-JigarPatel-NYCSchoolsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "20210610-JigarPatel-NYCSchoolsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jigar.-0210610-JigarPatel-NYCSchoolsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20210610-JigarPatel-NYCSchools.app/20210610-JigarPatel-NYCSchools";
+			};
+			name = Debug;
+		};
+		C30B8132267222430022F1B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD4271F10E33B2522C1C532C /* Pods-20210610-JigarPatel-NYCSchoolsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "20210610-JigarPatel-NYCSchoolsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jigar.-0210610-JigarPatel-NYCSchoolsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20210610-JigarPatel-NYCSchools.app/20210610-JigarPatel-NYCSchools";
+			};
+			name = Release;
+		};
+		C30B8134267222430022F1B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6C3DA7B778567EE35B4797E /* Pods-20210610-JigarPatel-NYCSchools-20210610-JigarPatel-NYCSchoolsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "20210610-JigarPatel-NYCSchoolsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jigar.-0210610-JigarPatel-NYCSchoolsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "20210610-JigarPatel-NYCSchools";
+			};
+			name = Debug;
+		};
+		C30B8135267222430022F1B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0135F86DCD3C4C35F2B08051 /* Pods-20210610-JigarPatel-NYCSchools-20210610-JigarPatel-NYCSchoolsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "20210610-JigarPatel-NYCSchoolsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jigar.-0210610-JigarPatel-NYCSchoolsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "20210610-JigarPatel-NYCSchools";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C30B80FE2672223B0022F1B1 /* Build configuration list for PBXProject "20210610-JigarPatel-NYCSchools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C30B812B267222430022F1B1 /* Debug */,
+				C30B812C267222430022F1B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C30B812D267222430022F1B1 /* Build configuration list for PBXNativeTarget "20210610-JigarPatel-NYCSchools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C30B812E267222430022F1B1 /* Debug */,
+				C30B812F267222430022F1B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C30B8130267222430022F1B1 /* Build configuration list for PBXNativeTarget "20210610-JigarPatel-NYCSchoolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C30B8131267222430022F1B1 /* Debug */,
+				C30B8132267222430022F1B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C30B8133267222430022F1B1 /* Build configuration list for PBXNativeTarget "20210610-JigarPatel-NYCSchoolsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C30B8134267222430022F1B1 /* Debug */,
+				C30B8135267222430022F1B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C30B80FB2672223B0022F1B1 /* Project object */;
+}
